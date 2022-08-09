@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Payara 5 Authentication Test</title>
+	</head>
+	<body>
+		<nav>
+ 	    <ul>
+      	<li><a href="home.html">home</a></li>
+ 	      <li><a href="login.html">login</a></li>
+ 	      <li><a href="logout.jsp">logout</a></li>
+ 	      <li><a href="index.jsp">refresh</a></li>
+      </ul>
+ 	  </nav>	
+		<div>
+		  <form id="login" role="form" method="post" action="j_security_check">
+		    <div>
+		  		<input id="username" class="form-input" type="text" 
+		  			name="j_username" placeholder="Username" required 
+		  			autocomplete="username" value="test">
+		  		<label id="labelForUsername" for="username">Username</label>
+		    </div>
+		    <div>
+	      	<input id="password" class="form-input" type="password" 
+	      		name="j_password" placeholder="Password" 
+	      		autocomplete="current-password" value="test">
+	      	<label id="labelForPassword" for="password">Password</label>
+		    </div>
+		    <button id="loginButton" type="submit">Login</button> 
+		  </form>
+	 	</div> 	
+	</body>
+</html>
