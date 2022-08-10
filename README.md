@@ -39,7 +39,7 @@ You should get the following display:
 	    </div>
 		</nav>
 	
-	<div id="msg">either OK! or KO! should be displayed here</div>
+	<div>either OK! or KO! should be displayed here</div>
 </body></html>
   
 # Results interpretation#
