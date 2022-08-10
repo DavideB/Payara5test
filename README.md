@@ -19,11 +19,7 @@ the string "test". If not, fill both fields manually with the string "test" and 
 
 You should get the following display:
 
-  <html><head>
-		<meta http-equiv="content-type" content="text/html">
-		<meta charset="UTF-8">
-		<title>Payara 5 Authentication Test</title>
-	</head>
+  <html>
 	<body>
 		<nav>
 	    <div>   	
@@ -38,7 +34,8 @@ You should get the following display:
 	 	    </ul>	  			
 	    </div>
 		</nav>
-</body></html>
+	</body>
+</html>
 either OK! or KO! should be displayed here.
   
 # Results interpretation#
