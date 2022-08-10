@@ -38,7 +38,7 @@ You should get the following display:
 </html>
 either OK! or KO! should be displayed here.
   
-# Results interpretation#
+# Results interpretation #
 The last line represents the result of the test: OK! if the test succeeded or KO! if the test failed.
 Repeating the test by clicking the refresh, home, login links or logout link followed by a login should give 
 a sequence of random fail/success. 
