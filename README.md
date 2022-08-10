@@ -38,9 +38,8 @@ You should get the following display:
 	 	    </ul>	  			
 	    </div>
 		</nav>
-	
-	<pre>either OK! or KO! should be displayed here</pre>
 </body></html>
+either OK! or KO! should be displayed here.
   
 # Results interpretation#
 The last line represents the result of the test: OK! if the test succeeded or KO! if the test failed.
