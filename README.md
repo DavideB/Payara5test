@@ -12,9 +12,9 @@ server.
 
 # Run instructions #
 Connect to URI "http://<server_dns_name_or_ip_address_of_your_payara_server>:8080/test" from a Chrome or FireFox browser.
-The app uses a secure connection, so depending on wether a vaild SSL certificate is installed in your server or not, you 
+The app uses a secure connection, so depending on whether a vaild SSL certificate is installed in your server or not, you 
 could get a security warning tha you should disregard and choose to continue connecting to the unsecure server.
-You should get the follwing authentication page where both user and password input fields are already filled in with 
+You should get the following authentication page where both user and password input fields are already filled in with 
 the string "test". If not, fill both fields manually with the string "test" and click the login button.
 
 You should get the following display:
