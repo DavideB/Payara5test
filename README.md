@@ -39,7 +39,7 @@ You should get the following display:
 	    </div>
 		</nav>
 	
-	<div>either OK! or KO! should be displayed here</div>
+	<pre>either OK! or KO! should be displayed here</pre>
 </body></html>
   
 # Results interpretation#
