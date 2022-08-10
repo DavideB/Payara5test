@@ -3,8 +3,8 @@ This repository contains a small web application to be deployed to a Payara 5 se
 raised when trying to retrieve the user principal from a SecurityContext object in a JAX-RS bean.
 
 # Installation instructions #
-Prerequisite: a running Payara Server 5.2022.2 with user "test", password "test" belonging to groups "sales:admin" configured in
-the file REALM.
+Prerequisite: Payara Server 5.2022.2 with user "test", password "test" belonging to groups "sales:admin" configured in
+the file REALM, running on jdk1.8.0_231, os platform: Windows 10.
 
 Deploy the TEST_Payara5.war file to the above specified Payara 5 Server, or import the project in this repository into 
 Eclipse IDE as a Dynamic Web Project, configure the above specified Payara 5 Server in the Eclipse IDE and Run the app on this
