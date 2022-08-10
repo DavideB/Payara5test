@@ -46,4 +46,4 @@ The last line represents the result of the test: OK! if the test succeeded or KO
 Repeating the test by clicking the refresh, home, login links or logout link followed by a login should give 
 a sequence of random fail/success. 
 
-The same app run on Payara 4 server should never fail.
+The same app run on Payara 4 server never fails, suggesting that the problem was introduced in Payara 5.
